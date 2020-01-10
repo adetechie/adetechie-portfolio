@@ -11,17 +11,17 @@ body {
 h1 {
 	color: #fffdfd;
 	font-family: 'Sacramento', cursive;
-	font-size: 5rem;
+	font-size: 80px;
 	line-height: 1.5;
-	margin: 2.5rem 0 0 1.875rem;
+	margin: 40px 0 0 30px;
 }
 
 h2 {
 	background-color: #008073;
 	color: #fff;
 	font-weight: 200;
-	font-size: 2.92rem;
-	line-height: 3.212rem;
+	font-size: 45px;
+	line-height: 50px;
 	padding: 10px 30px;
 }
 
@@ -39,7 +39,7 @@ p {
 }
 
 .navbar-brand {
-	font-size: 1.5rem;
+	font-size: 24px;
 	font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ p {
 }
 
 .nav-link {
-	font-size: 1.2rem;
+	font-size: 20px;
 	font-family: "Montserrat-Light";
 }
 
@@ -78,9 +78,9 @@ em {
 .career {
 	color: #fffdfd;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 3rem;
+	font-size: 48px;
 	line-height: 1.5;
-	padding-left: 5rem;
+	padding-left: 80px;
 }
 
 /* ABOUT SECTION*/
@@ -95,7 +95,7 @@ em {
 
 .icon {
 	color: #008073;
-	margin-bottom: 1rem;
+	margin-bottom: 16px;
 }
 
 .icon:hover {
@@ -160,7 +160,8 @@ em {
 	padding: 7% 15%;
 }
 
-.blog__link {
+.blog__link,
+.fa-arrow-circle-up {
 	color: #008073;
 }
 
@@ -172,6 +173,13 @@ em {
 	color: #070707;
 }
 
+.back-to-top {
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	top: 300px;
+}
+
 /* ///////////////// */
 .full-height {
 	height: 100vh;
@@ -179,12 +187,12 @@ em {
 
 @media only screen and (max-width: 600px) {
 	h1 {
-		font-size: 3rem;
+		font-size: 48px;
 	}
 	.career {
-		font-size: 1.5rem;
+		font-size: 24px;
 	}
 	.contact__detail--link {
-		font-size: 0.8rem;
+		font-size: 12px;
 	}
 }
