@@ -1,7 +1,11 @@
 /* GENERAL SECTION*/
-body {
+* {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
 	background-color: #fffdfd;
 	background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 	color: #40514e;
@@ -65,6 +69,8 @@ p {
 /* TITLE SECTION*/
 #title {
 	background: url(../images/adetechie.jpg) no-repeat top center/cover;
+	background-attachment: fixed;
+	position: static;
 }
 
 em {
@@ -72,7 +78,8 @@ em {
 }
 
 .main__page {
-	margin-top: 50px;
+	position: relative;
+	top: 200px;
 }
 
 .career {
@@ -80,7 +87,7 @@ em {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 48px;
 	line-height: 1.5;
-	padding-left: 80px;
+	padding-left: 100px;
 }
 
 /* ABOUT SECTION*/
@@ -185,7 +192,7 @@ em {
 	height: 100vh;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
 	h1 {
 		font-size: 48px;
 	}
