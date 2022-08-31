@@ -68,7 +68,7 @@ p {
 
 /* TITLE SECTION*/
 #title {
-	background: url(../images/adetechie.jpg) no-repeat top center/cover;
+	background: url(../images/adetechie.jpeg) no-repeat top center/cover;
 	background-attachment: fixed;
 	position: static;
 }
@@ -138,6 +138,31 @@ em {
 	padding: 3% 2%;
 }
 
+/* SETUP SECTION */
+#setup{
+	text-align: center;
+}
+.setup{
+	padding-top: 135px;
+}
+.setup-row{
+	padding: 7% 15%;
+	padding-top: 30px;
+}
+.table-img{
+	height: 150px;
+	width: 150px;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 15px;
+}
+
+
+
 /* CONTACT SECTION */
 .contact {
 	padding: 7% 15%;
@@ -197,9 +222,9 @@ em {
 		font-size: 48px;
 	}
 	.career {
-		font-size: 24px;
+		font-size: 20px;
 	}
 	.contact__detail--link {
-		font-size: 12px;
+		font-size: 10px;
 	}
 }
