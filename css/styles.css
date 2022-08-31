@@ -139,11 +139,9 @@ em {
 }
 
 /* SETUP SECTION */
-#setup{
-	text-align: center;
-}
 .setup{
 	padding-top: 135px;
+	text-align: center;
 }
 .setup-row{
 	padding: 7% 15%;
@@ -160,8 +158,6 @@ table, th, td {
 th, td {
 	padding: 15px;
 }
-
-
 
 /* CONTACT SECTION */
 .contact {
